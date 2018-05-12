@@ -1,0 +1,33 @@
+{
+  "name": "zwitscher",
+  "version": "0.0.0",
+  "description": "zwitscher is a Twitter CLI.",
+  "contributors": [
+    {
+      "name": "Golo Roden",
+      "email": "golo.roden@thenativeweb.io"
+    }
+  ],
+  "bin": {
+    "zwitscher": "app.js"
+  },
+  "dependencies": {
+    "buntstift": "1.2.0",
+    "inquirer": "5.2.0",
+    "lodash": "4.17.10",
+    "processenv": "1.0.0",
+    "twitter": "1.7.1"
+  },
+  "devDependencies": {
+    "roboter": "1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thenativeweb/zwitscher.git"
+  },
+  "keywords": [
+    "cli",
+    "twitter"
+  ],
+  "license": "MIT"
+}
