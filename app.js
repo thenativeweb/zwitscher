@@ -32,7 +32,7 @@ const buntstift = require('buntstift'),
     accounts[accountName][secretType] = value;
   }
 
-  const accountNames = Object.keys(accounts);
+  const accountNames = Object.keys(accounts).sort();
 
   const { selectedAccountName } = await inquirer.prompt([
     {
