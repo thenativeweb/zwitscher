@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "esnext",
+    "outDir": "build",
+    "strict": true,
+    "target": "es2019"
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
