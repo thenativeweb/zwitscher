@@ -1,19 +1,19 @@
-
-  const { tweet } = await inquirer.prompt([
-    {
-      type: 'input',
-      name: 'tweet',
-      message: 'Tweet:'
-    }
-  ]);
-
-  if (!tweet) {
-    return buntstift.error('Aborting.');
-  }
-
-  const stop = buntstift.wait();
-
-  await twitter.post('statuses/update', { status: tweet });
-
-  stop();
-})();
+//
+//   const { tweet } = await inquirer.prompt([
+//     {
+//       type: 'input',
+//       name: 'tweet',
+//       message: 'Tweet:'
+//     }
+//   ]);
+//
+//   if (!tweet) {
+//     return buntstift.error('Aborting.');
+//   }
+//
+//   const stop = buntstift.wait();
+//
+//   await twitter.post('statuses/update', { status: tweet });
+//
+//   stop();
+// })();
