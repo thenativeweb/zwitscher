@@ -19,7 +19,7 @@
     "twitter": "1.7.1"
   },
   "devDependencies": {
-    "roboter": "1.0.4"
+    "roboter": "13.2.1"
   },
   "repository": {
     "type": "git",
